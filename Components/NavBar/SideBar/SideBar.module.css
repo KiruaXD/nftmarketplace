@@ -1,0 +1,95 @@
+.sideBar_box{
+    padding: 1rem;
+    border-bottom: 1px solid var(--icons-color);
+    background-color: rgb(163, 171, 184);
+    padding-top: 0rem;
+}
+
+.sideBar_closeBtn{
+    position: absolute;
+    top: 3rem;
+    right: 2rem;
+    transition: all .2s ease-in-out;
+    cursor: pointer;
+    box-shadow: var(--box-shadow);
+
+}
+
+.sideBar_closeBtn:hover{
+    transform: rotate(45deg);
+}
+
+.sideBar_box p{
+    margin-top: -2rem;
+    background-color: rgb(163, 171, 184);
+}
+
+.sideBar_social{
+    display: flex;
+    gap: 1.3rem;
+    font-size: 1.5rem;
+    align-items:center;
+}
+
+.sideBar_social a{
+    padding: .2rem;
+    border-radius: 50%;
+    transition: all .3s ease-in;
+    display: grid;
+}
+
+.sideBar_social a:hover{
+    background-color: var(--icons-color);
+    color: var(--shadow-dark-color);
+    box-shadow: 1px solid var(--icons-color);
+}
+
+
+.sideBar_menu{
+  
+    padding: 2rem;
+    
+    text-transform : uppercase;
+    font-weight: bolder;
+    border-bottom : 1px solid var(--icons-color);
+    margin-bottom: -2rem;
+    background-color: rgb(163, 171, 184);
+    border-bottom : 1px solid var(--icons-color);
+}
+
+
+.sideBar_menu_box{
+    background-color: rgb(163, 171, 184);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    font-weight:bolder;
+    padding: .5rem;
+    border-bottom : 1px solid var(--icons-color);
+
+}
+
+.sideBar_discover{
+    background-color: rgb(163, 171, 184);
+    padding-inline: 1rem;
+    padding: .5rem;
+    border-bottom : 1px solid var(--icons-color);
+}
+
+.sideBar_discover{
+    background-color: rgb(163, 171, 184);
+    padding-inline: 1rem;
+    padding: .5rem;
+}
+.sideBar_button{
+    background-color: rgb(163, 171, 184);
+    padding-inline: .5rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight:bolder;
+    border-bottom : 1px solid var(--icons-color);
+}
